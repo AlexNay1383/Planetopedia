@@ -1,0 +1,18 @@
+.background_ {
+    background-color: black;
+}
+
+/*All base styles for the top navigation*/
+.top_section {
+    margin-left: 1%;
+    margin-top: 0.1%;
+}
+
+.text {
+    color: #FFFFFF;
+}
+
+.search_bar {
+    color: #FFFFFF;
+    background-color: #333333;
+}
