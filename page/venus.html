@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The website for planets, solar systems, galaxies and the Universe!">
+    <title>Planetopedia</title>
+    <link rel="stylesheet" href="../style/styles.css">
+</head>
+
+<body class="body_class">
+    <div class="main_navbar">
+        <button onclick="buttonOnClick('welcome.html')">
+            <img src="../Images/home_button.png" width="70px">
+        </button>
+        <!-- <span>
+            <input type="text" class="search_bar_cl" placeholder="Search Planetopedia...">
+            <a href=""><img src="../Images/search-icon.png" width="1%" class="search_icon"></a>
+        </span> -->
+
+        <button onclick="buttonOnClick('sun.html')">
+            Слънце
+        </button>
+        <button onclick="buttonOnClick('mercury.html')">
+            Меркурий
+        </button>
+        <button onclick="buttonOnClick('venus.html')">
+            Венера
+        </button>
+        <button onclick="buttonOnClick('earth.html')">
+            Земя
+        </button>
+        <button onclick="buttonOnClick('mars.html')">
+            Марс
+        </button>
+        <button onclick="buttonOnClick('jupiter.html')">
+            Юпитер
+        </button>
+        <button onclick="buttonOnClick('saturn.html')">
+            Сатурн
+        </button>
+        <button onclick="buttonOnClick('uranus.html')">
+            Уран
+        </button>
+        <button onclick="buttonOnClick('neptune.html')">
+            Нептун
+        </button>
+    </div>
+    
+    <div class="main_section">
+        <div class="left_navbar">
+            <span style="font-size: xx-large;">Съдържание:</span>
+            <a href="#mercury">Меркурий</a>
+            <a href="#charachteristics">Характеристики</a>
+            <a href="#WhenAndHow">Кога и как да наблюдаваме Меркурий</a>
+            <a href="#missions">Мисии</a>
+        </div>
+
+        <!--Content-->
+        <div class="content">
+        <h1>Венера</h1>
+        <p class="small_venus_caption" style="font-style: italic;">
+            Втората по ред планета от Слънчевата система
+        </p>
+        <h2 id="fiz">Физически характеристики</h2>
+        <p>
+            Венера има бавно ретроградно въртене – по посока на часовниковата стрелка.
+            Това означава, че тя се върти от изток на запад, вместо от запад на изток,
+            както повечето други основни планети. Не е известно със сигурност защо
+            Венера се върти по посока на часовниковата стрелка, въпреки че се
+            предполага, че в миналото се е сблъскала с много голям астероид.
+        </p>
+        <h2 id="at">Атмосфера</h2>
+        <p>
+            Венера има атмосфера, която съдържа главно въглероден диоксид и малко
+            количество азот. Налягането на повърхността на планетата е огромно – 90 пъти
+            по-високо от това на земното морско равнище или еквивалентно на налягането в
+            земните океани на около 1 km дълбочина. В ниските екваториални райони
+            температурата на повърхността достига до 500 °C. Поради този факт
+            повърхността на Венера, взета като цяло, е най-горещата сред всички планети
+            в Слънчевата система.
+        </p>
+        <h2 id="mag">Магнитно поле</h2>
+        <p>
+            За вътрешното магнитно поле на Венера е установено, че е слабо в сравнение с
+            другите планети от Слънчевата система. Този факт може да се обясни с бавното
+            въртене на планетата, което прави невъзможна циркулацията на течно желязо в
+            ядрото ѝ. В резултат на това слънчевият вятър въздейства директно върху
+            горните слоеве на атмосферата. Учените считат, че преди време на Венера е
+            имало толкова вода, колкото и на Земята, но слънчевият вятър бавно е
+            разрушил водните молекули до съставните им елементи.
+        </p>
+        </div>
+
+        <div class="right_side">
+        <img class="venus.jpg" src="images/venus.jpg" width="100%" align="right" alt="Venus image"/>
+            <table class="table" align="right">
+                <caption class="tab.cap">
+                  Експедиции
+                </caption>
+                <tr>
+                  <th>Име</th>
+                  <th>Година</th>
+                </tr>
+                <tr>
+                  <td>Венера 1</td>
+                  <td>1961г.</td>
+                </tr>
+                <tr>
+                  <td>Маринър 2</td>
+                  <td>1962г.</td>
+                </tr>
+                <tr>
+                  <td>Зонд 1</td>
+                  <td>1964г.</td>
+                </tr>
+                <tr>
+                  <td>Венера 3</td>
+                  <td>1966г.</td>
+                </tr>
+                <tr>
+                  <td>Венера 4</td>
+                  <td>1967г.</td>
+                </tr>
+              </table>
+        </div>
+    </div>
+
+    <script src="../main.js"></script>
+</body>
+</html>
